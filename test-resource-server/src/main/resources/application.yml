@@ -2,11 +2,10 @@ server:
   port: 8080
 
 logging:
-  level:
-    root: INFO
-    org.springframework.web: INFO
-    org.springframework.security: INFO
-    org.springframework.security.oauth2: INFO
+    level:
+      org:
+        springframework:
+          security: DEBUG
 
 spring:
   security:
